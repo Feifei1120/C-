@@ -7,7 +7,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             int age = 30;
-            string result = age >=18? "Adult":"Non-adult"; //分号前是True返回的结果,分号后是False的结果
+            string result = age >=18? "Adult":"Non-adult"; //冒号前是True返回的结果,冒号后是False的结果
             Console.WriteLine(result);
         }
     }

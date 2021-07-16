@@ -11,7 +11,7 @@ namespace ConsoleApp2
            int health = 100;
            gameOver = true;
            isWin = false;
-           print( gameOver || isWin && health > 0); //health>0是优先运算，
+           print( gameOver || isWin && health > 0); //health>0是优先运算，true
         }
     }
 }
