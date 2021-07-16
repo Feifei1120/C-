@@ -8,7 +8,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
            string name = Console.ReadLine();
-           string result = name == "老王" ? "老王":"流氓"；
+           string result = name == "老王" ? "老王":"流氓"; 
            System.Console.WriteLine(result);
         }
     }
