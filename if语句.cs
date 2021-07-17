@@ -6,14 +6,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            
-            string input = Console.ReadLine();
-            string result = input == "123" ? "yes":"no";
-            Console.WriteLine(result);//以上是第一种用法
+            Console.WriteLine("Give your age: ")
+            string str = Console.ReadLine();
+            int age;
+            if (int.TryParse(str, out age)) {
+                if (age > 18) {
+                    Console.WriteLine("You are an adult!");
+                }
+            }
 
-            if(input == "123") {
-                Console.WriteLine("yes");
-            }//第二种方法用if
             
         }
     }
