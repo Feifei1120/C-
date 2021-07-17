@@ -23,7 +23,7 @@ namespace ConsoleApp2
             
             if (int.TryParse(chinese_, out chinese) && int.TryParse(maths_, out math) && int.TryParse(english_, out english)) {
                 //三个数据都是符合规则的=合法的
-                if((chinese > 70&&math>80&&english>90)
+                if((chinese > 70 && math>80 && english>90)
                     ||(chinese == 100 || math==100 || english ==100)
                     ||(chinese > 90 && (math > 70 || english > 70))){
                         Console.WriteLine("You are excelent! Keep endevoring!");
