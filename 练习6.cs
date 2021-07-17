@@ -22,10 +22,8 @@ namespace ConsoleApp2
 
             string str = chinese_result && math_result && english_result ? "total grade: " +(chinese_num+math_num+english_num)+ 
             ", average grade"+ (chinese_num+math_num+english+num)/3.0f: "wrong enther";
-            Console.WriteLine(str);
-            
-                
-            
+            Console.WriteLine(str);//这个就比较安全，但是不会崩塌，不会散退
+                        
         }
     }
 }
