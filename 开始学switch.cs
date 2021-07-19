@@ -1,3 +1,4 @@
+//枚举类型用switch特别多，比如QQ状态，在线的，离开的，忙碌的
 using System;
 
 namespace ConsoleApp2
@@ -13,7 +14,7 @@ namespace ConsoleApp2
                     {
                         Console.WriteLine("输出的是A");
                     }
-                    break;
+                    break; //-->一定要以break结束每个case
                 case "B":
                     {
                         Console.WriteLine("输出的是B");
@@ -22,7 +23,7 @@ namespace ConsoleApp2
 
                 default:
                     {
-                        Console.WriteLine("非AB")
+                        Console.WriteLine("非AB");
                     }
                     break;
 
