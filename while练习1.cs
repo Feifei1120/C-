@@ -8,7 +8,7 @@ namespace ConsoleApp2
         {
             int num = 100;
             while (num > 0) {
-                Console.WriteLine("I love C sharp");
+                Console.WriteLine("I love C sharp" +num);
                 num --;
             }
             
