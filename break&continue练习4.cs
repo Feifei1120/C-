@@ -14,7 +14,7 @@ namespace ConsoleApp2
             while (num < 100) {
                 sum += num;
                 if ( sum >500) {
-                    Console.WriteLine("sum: {0}, num: {1},sum,num")
+                    Console.WriteLine("sum: {0}, num: {1},sum,num");
                     break;
                 }
             }
