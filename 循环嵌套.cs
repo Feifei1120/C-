@@ -25,6 +25,13 @@ namespace ConsoleApp2
                 Console.WriteLine("Outman starts to attack: ");
                 Console.ReadKey();
                 int atk = dice.Next(outMan_minAtk, outMan_maxAtk);
+                int num = dice.Next(1,100);
+                if (num < outMan_rate) {
+                    monster_hp -= atk;
+                }
+                else {
+                    Console.WriteLine("Outman missed!")
+                }
                 monster_hp -= atk;
                 Console.WriteLine("Outman's attack force is :{0}, the monster still has {1} blood", atk,moster_hp);
                 if (monster_hp <= 0) {
