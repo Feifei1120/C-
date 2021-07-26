@@ -5,10 +5,7 @@ namespace ConsoleApp2
 {
     struct Color
     {
-        public string r;
-        public string g;
-        public string b;
-        public string a;
+        public float red,green,blue,alpha;
 
     }
     class Program
