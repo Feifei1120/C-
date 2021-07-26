@@ -3,9 +3,9 @@ using System;
 
 namespace ConsoleApp2
 {
-    struct Rectangular
+    struct Rectangle
     {
-        public double length;
+        public float length;
         public double width;
 
     }
@@ -13,10 +13,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Person Zhangsan = new Person ();
-            Zhangsan.name = "张三";
-            Zhangsan.age = 18;
-            Zhangsan.gender = "male";
+            
         }
     }
 }
