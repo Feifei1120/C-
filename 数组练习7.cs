@@ -10,7 +10,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             int [] nums = {-3,4,6,0,-2};
-            for (int i = 0; i < nums.Length; i ++)
+            for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] <0)
                 {
@@ -19,10 +19,11 @@ namespace ConsoleApp2
                 else if (nums[i] >0) {
                     nums[i]++;
                 }
-            for (int i =0; i < nums.Length; i++)
+            }
+            for (int i = 0; i < nums.Length; i++)
             {
                 Console.WriteLine(nums[i]);
-            }
+            
             }
         }
     }
