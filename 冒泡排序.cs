@@ -1,5 +1,6 @@
 //数组排序（bubble sort)，面试经常考，两个两个比，可以从小到大排序，也可以反过来
 //作为程序员一定要会的，是一种练习for循环非常好的工具
+//常见的排序有10种，本课程有4-5种
 using System;
 
 namespace ConsoleApp2
