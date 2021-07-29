@@ -18,7 +18,7 @@ namespace ConsoleApp2
             Console.WriteLine(arr4.GetLength(0)); //打印行
             Console.WriteLine(arr4.GetLength(1)); //打印列
 
-            for (int i = 0; i <arr.GetLength(0); i++) //getlength(0)，0和1不能乱写
+            for (int i = 0; i <arr.GetLength(0); i++) //GetLength(0)，0和1不能乱写
             {
                 for (int j =0; j <arr4.GetLength(1); j++)
                 {
