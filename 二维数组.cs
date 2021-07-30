@@ -22,7 +22,7 @@ namespace ConsoleApp2
             {
                 for (int j =0; j <arr4.GetLength(1); j++)
                 {
-                    Console.Write(arr4[i,j] +"\t");
+                    Console.Write(arr4[i,j] +"\t");//也就是说二维数组用两个for循环嵌套即可
                 }
                 Console.WriteLine();
             }
