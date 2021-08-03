@@ -25,7 +25,11 @@ namespace ConsoleApp2
             int[] arr2 = {1,2,3,4,5};
             foreach (int item in arr2)
             {
-                Console.WriteLine(item); //foreach有点就是不会数组越界，缺点就是不能对迭代变量进行修改，没有for好用，for的内存好回收
+                foreach (int i in item)
+                {
+                    Console.Write(i+"\t");
+                }
+                Console.WriteLine(); //foreach有点就是不会数组越界，缺点就是不能对迭代变量进行修改，没有for好用，for的内存好回收
             }
         }
     }
