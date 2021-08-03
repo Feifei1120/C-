@@ -16,7 +16,7 @@ namespace ConsoleApp2
             {
                 for (int j = 0; j <arr.GetLength(1); j++)
                 {
-                    if (i ==j || i +j ==2) {
+                    if (i ==j || i +j ==2) { //i == j是右斜杠对角线，i+j ==2是左斜杠对角线，但是中间的5只加一次，所以结果是25，不是30
                         sum += arr[i,j];
                     }
 
