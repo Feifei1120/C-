@@ -13,11 +13,14 @@ namespace ConsoleApp2
             Console.WriteLine("Hello World!");
             //是注释，不参与编译，每一行要以分号结尾
             //代码就是要与用户交互信息
+            Test();
         }
+        
         //括号里的叫参数，也可以没有
         //但是函数有一个非常明显的特征：不调用，不执行
         static void Test() {
             Console.WriteLine("Test"); //最简单的函数，当想输出Test，就可以调用这个函数
         }
+        
     }
 }
