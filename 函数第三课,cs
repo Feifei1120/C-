@@ -1,0 +1,19 @@
+//有返回值就必须return
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                int b = 3; 
+                b = Test2(b);
+                Console.WriteLine("b:" +b); 
+        }
+
+        static int Test2(int a) {
+            a = a + 5;
+            return a;
+        }   
+    }
+}
+//这里返回b=8

@@ -1,3 +1,4 @@
+//这是一道迷惑题
 using System;
 
 namespace ConsoleApp2
@@ -6,13 +7,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-                int a = 3;
+                int a = 3; //作用域只是在这个大括号内，所以此a非彼a
                 Test(a);
             Console.WriteLine(a); //带有迷惑性
         }
-            static void Test(int a) {
-            a = a + 5;
-        }
-        
+
+        static int Test(int a) {
+        a = a + 5;//a虽然等于a,但是和int a里面的a没有关系
+        }   
     }
 }

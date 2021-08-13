@@ -21,7 +21,6 @@ namespace ConsoleApp2
         static void Test() { //static是静态的意思，void是返回类型，表示没有返回值，这里Test()括号里面没有参数
             Console.WriteLine("Test"); //最简单的函数，调用控制台写的功能，当想输出Test，就可以调用这个函数
             //函数必须首单词首字母均大写，函数是将一堆代码封装然后重用
-        }
-        
+        } 
     }
 }
